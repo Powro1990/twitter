@@ -1,6 +1,6 @@
 package twitter.model;
 
-public class TweetRepositoryException extends Exception {
+public class TweetRepositoryException extends RuntimeException {
     public TweetRepositoryException(String message) {
         super(message);
     }
